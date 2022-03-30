@@ -54,3 +54,41 @@ var cupsOfFlour = 1
 var hasSauce = true
 if (cupsOfFlour >= 2 && hasSauce === true) {console.log('i can make pizza');}
 else {console.log('i can`t make pizza');}
+
+//arrays
+var animals = ['zebra', 'giraffe', 'elephant'];
+console.log(animals);
+
+console.log(animals.length);
+animals[2] = 'gorilla';
+animals.push('rabbit');
+animals.push('elephant');
+console.log(animals);
+
+var foods = ['ramen', 'cookies', 'cereal', 'tea'];
+console.log(foods.length);
+foods.push('broccoli');
+console.log(foods);
+foods.pop();
+foods.unshift('pringles', 'pho', 'burger');
+console.log(foods);
+foods.shift();
+
+var percentBattery = 12
+var hasCharger = true
+var chargerType = 'car'
+if (percentBattery >= 15 || hasCharger === true && chargerType === 'car') {console.log('call uber');}
+else {console.log('Can`t call uber');}
+
+//loops and arrays
+var animsls = ['cat', 'dog', 'bird'];
+for (var i = 0; i < animsls.length; i++) {console.log(`the ${animsls[i]} is awesome!`);}
+
+var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
+for (var i = 0; i < ages.length; i++) {
+  if (ages[i] >= 18) {console.log(ages[i] + ' go and vote');}
+  else {console.log(ages[i] + ' chill at home');}
+}
+
+//loops
+for (var i = 10; i >= 1; i--) {console.log(i);}
