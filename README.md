@@ -42,3 +42,7 @@
 21. **Concatenation**: bind together strings by a type coercion
 
 22. **Template Literal/Interpolation**: Inject values into a strings
+
+23. **Square Brackets**: Used to declare an arrays
+
+24. **Bracket notation**: used to access an element in an array.
